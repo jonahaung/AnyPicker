@@ -6,6 +6,6 @@ final class AnyPickerTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(AnyPicker().text, "Hello, World!")
+//        XCTAssertEqual(AnyPicker().text, "Hello, World!")
     }
 }
