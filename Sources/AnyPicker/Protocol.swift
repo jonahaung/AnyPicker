@@ -9,9 +9,16 @@ import SwiftUI
 
 public struct AnyPickableElements {
     public let title: String
-    public let subTitles: String?
+    public let subTitle: String?
     public let iconName: String?
     public let color: Color?
+    
+    public init(title: String, subTitle: String?, iconName: String?, color: Color?) {
+        self.title = title
+        self.subTitle = subTitle
+        self.iconName = iconName
+        self.color = color
+    }
 }
 
 public protocol AnyPickable: Identifiable {

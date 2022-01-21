@@ -39,7 +39,7 @@ public struct AnyPicker<T: AnyPickable>: View {
                 }
                 Text(item.elements.title)
                 Spacer()
-                if let x = item.elements.subTitles {
+                if let x = item.elements.subTitle {
                     Text(x)
                 }
                 if item.id == selectedData.wrappedValue.id {
