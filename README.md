@@ -1,3 +1,3 @@
 # AnyPicker
 
-A description of this package.
+Conform your data model to "AnyPickable" protocol. 
